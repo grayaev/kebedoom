@@ -22,3 +22,6 @@ spec:
           ports:
             - containerPort: 5900
               protocol: TCP
+
+#пробрасываем порт
+#  kubectl port-forward kubedoom-* 5900:5900 --namespace=kubedoom
